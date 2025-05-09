@@ -17,6 +17,7 @@ const CTASection = () => {
                         Create a free account. No demos or calls with our sales team are required. Upgrade only if you have to.
                     </p>
                     <div className="mt-8 flex flex-col md:flex-row gap-4">
+                        {/* Go to Sing Up Page */}
                         <Link
                             href="/signup"
                             className="flex justify-center items-center rounded-xl bg-[#adff85] px-6 py-3 text-sm font-medium text-black shadow-sm font-robotoMono hover:bg-[#9fec78]"
